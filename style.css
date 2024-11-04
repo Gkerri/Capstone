@@ -1,0 +1,35 @@
+header {
+    text-align:center;
+    font-family:'Franklin Gothic', sans-serif;
+}
+/* how to align pictures*/
+/* how to separate text so that it doesn't cross the entire page */
+h1 {
+    color:rgb(85, 123, 237);
+    font-family:"poiret one", sans-serif;
+    font-size: 50px;
+}
+h2 {
+    color:rgb(85, 123, 237);
+    font-family:"poiret one", sans-serif;
+    font-size: 35px;
+}
+h3 {
+    color:rgb(85, 123, 237);
+    font-family:"poiret one", sans-serif;
+    font-size:30px;
+}
+h4 {
+    color:rgb(85, 123, 237);
+    font-family:"poiret one", sans-serif;
+    font-size:25px;
+}
+body {
+    background-color:aliceblue; color:darkslateblue;
+    font-family:'Franklin Gothic', sans-serif;
+}
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
