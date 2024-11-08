@@ -4,7 +4,7 @@
     box-sizing:border-box;
     background-color:aliceblue;
     line-height:1.5;
-    /* border:1px dotted red; */
+    /* text-align:left; */
 }
 .poiret-one-regular {
     font-family: "Poiret One", sans-serif;
@@ -19,48 +19,154 @@
     margin-top:5px;
 }
 .tony-cereal {
-    width:35%;
+    max-width:300px;
+    display:block;
+    margin:0 auto;
 }
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding:0px;
+}
+  /* Clear floats after the columns */
+.row::after {
+content: "";
+display: table;
+clear: both;
+}
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
 .image {
-    width:300px;
+    width:25%;
+    padding-right:12px;
+    float:left;
+}
+figcaption {
+    font-size:15px;
+    text-align:left;
+    line-height:1;
+    margin:0;
+    padding:0;
+}
+.banner {
+    height:200px;
+    color:azure;
+    text-align:center;
+    padding:10px 10px;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+    border:4px solid royalblue;
 }
 .header {
     color:rgb(85, 123, 237);
     text-align:center;
     line-height:1;
-    /* margin:100px; */
-    /* padding:75px; */
-    /* border:1px solid royalblue; */
+    margin:0 auto;
+    padding:15px;
 }
-#header {
-    margin:100px;
-    padding:75px;
-    border:1px solid royalblue;
+ .topnav {
+    overflow:hidden;
+    padding-bottom:10px;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+ }
+.topnav a {
+    display:inline-flex;
+    color:azure;
+    text-align:center;
+    padding:10px 35px;
+    text-decoration:none;
+    border:3px solid azure;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+}
+.topnav a:hover {
+    text-decoration:underline;
+    color:yellow;
+}
+.topnav p {
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+    /* background-image:url("./images/blue-snow.webp");
+    background-size:cover; */
 }
 .title {
-    text-decoration:underline;
-    color:rgb(85, 123, 237);
+    color:azure;
     font-family:"Poiret One", sans-serif;
     font-size:60px;
     font-weight:900;
     padding-bottom:0px;
-    margin-bottom:10px;
+    margin:0px;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+    /* background-image:url("./images/blue-snow.webp");
+    background-size:cover; */
 }
 .footer {
     text-align:center;
+    color:azure;
     line-height:1;
     padding:35px;
-    border:1px solid royalblue;
+    border:4px solid royalblue;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+}
+.bottomnav a {
+    display:inline-block;
+    color:azure;
+    text-align:center;
+    padding:10px 35px;
+    text-decoration:none;
+    border:5px solid azure;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+}
+.bottomnav a:hover {
+    text-decoration:underline;
+    color:yellow;
+}
+.bottomnav p {
+    color:azure;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
 }
 .footer a {
-    font-size:15;
+    font-size:15px;
     text-align:center;
-    font-variant:small-caps;
+    font-variant:small-caps;background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
+}
+.footer p {
+    text-align:center;
+    background-image:url("./images/vintage-wallpaper.webp");
+    background-size:cover;
+    background-position:center;
 }
 .more-info {
     text-align:center;
-    border:1px solid royalblue;
+    border:4px solid royalblue;
     padding:35px;
+}
+.more-info p {
+    text-align:center;
+}
+.more-info a {
+    text-align:center;
 }
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -72,8 +178,10 @@ body {
 }
 p {
     line-height:1.5;
+    text-align:left;
     margin-top:0px;
     margin-bottom:0px;
+    padding-left:7px;
 }
 a {
     color:blue;
@@ -82,6 +190,7 @@ a {
 }
 a:hover {
     text-decoration:underline;
+    color:purple;
 }
 p.normal {
     font-variant:normal;
@@ -90,6 +199,7 @@ p.small {
     font-variant:small-caps;
 }
 ol {
+    text-align:left;
     margin:10px 10px
 }
 ol li {
@@ -97,9 +207,11 @@ ol li {
     margin:10px
 }
 .ol1 {
-    padding-right:6%;
+    padding:5px;
+    margin-left:5px;
 }
 ul {
+    text-align:left;
     margin:7px 7px 17px;
     padding:0% 6%;
 }
@@ -118,6 +230,7 @@ h3 {
     font-family: "Poiret One", sans-serif;
     font-size:40px;
     font-weight:700;
+    text-align:left;
     padding-bottom:0px;
     margin-top:25px;
     margin-bottom:10px;
@@ -126,6 +239,7 @@ h4 {
     color:rgb(85, 123, 237);
     font-family:"poiret one", sans-serif;
     font-size:35px;
+    text-align:left;
     font-weight:700;
     font-variant:small-caps;
     padding-bottom:0px;
@@ -136,6 +250,7 @@ h5 {
     color:rgb(85, 123, 237);
     font-family:"poiret one", sans-serif;
     font-size:30px;
+    text-align:left;
     font-style:italic;
     font-weight:700;
     padding-bottom:0px;

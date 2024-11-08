@@ -11,39 +11,48 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
+        <link rel="index" href="./index.html">
     </head>
+
     <body>
+        <div class="banner">
+            <h1 class="title">Baby Blu Saves The World</h1> 
+            <!-- this is a working title only -->
+            <div class="topnav">
+                    <a href="./index.html">Overview</a>
+                    <a href="./page2.html">Our Story</a>
+                    <a href="#more">More Info</a>
+            </div>
+        </div>
+
         <div class="header">
             <header id="header">
-                <h1 class="title"><img class="balloon" src="./images/balloon-25734_1280.png" alt="a blue balloon"> Baby Blu Saves The World <img class="balloon" src="./images/balloon-25734_1280.png" alt="a blue ballon"></h1> 
-                <!-- this is a working title only -->
-                <p>
-                    <img class="heart" src="./images/heart-37458_640.png" alt="the outline of a heart">
-                    <a href="./index.html">Overview</a>
-                    <img class="heart" src="./images/heart-37458_640.png" alt="the outline of a heart">
-                    <a href="./page2.html">Our Story</a>
-                    <img class="heart" src="./images/heart-37458_640.png" alt="the outline of a heart">
-                    <a href="#more">More Info</a>
-                    <img class="heart" src="./images/heart-37458_640.png" alt="the outline of a heart">
-                </p>
-                <img class="tony-cereal" src="./images/20241030-Tony.jpg" alt="a toddler wearing white pajamas sits at a wooden table feeding himself a bowl of cereal">
-                <p>Tony eats his Fruit Loops with enthusiasm.
-                </p>
+                <img class="tony-cereal" src="./images/20241030-Tony.jpg" width="300" alt="a toddler wearing white pajamas sits at a wooden table feeding himself a bowl of cereal">
+                    <figcaption class="tony-cereal">Tony eats his Fruit Loops with enthusiasm.
+                    </figcaption>
             </header>
         </div>
+<hr>
         <div class="our-story">
             <section id="story">
                 <h2><u>Our Story</u></h2>
+                <div class="row column">
                     <h3>Diagnosis and Pregnancy</h3>
                         <!-- <p>20 week ultrasound.
                             Going to vancouver for diagnosis: diagnosis, counseling, geneticist, options.
                             Traveling back and forth every four weeks. 
                             Hope Air, Easter Seals House.Candidate for surgery or not.
                         </p> -->
+                    </div>
+
+                    <div class="row column">
                     <h3>My Birthing Experience</h3>
                         <!-- <p>traveling to vancouver for birth, waiting for the moment. Planning the delivery and two care teams.
                             The first 5 days.
                         </p> -->
+                    </div>
+
+                    <div class="row column">
                     <h3>The Norwood Procedure</h3>
                         <!-- <p>Saturday. Meeting the surgical team. Emotions. Taking Tony back. 9 hours of waiting.
                             Returning Tony to ICU. Emotions. Living in two places. Big kids are sick. 
@@ -51,6 +60,9 @@
                             Preparing to go home. Learning about tube feeds, sat monitoring, weigh-ins at home. Discharged Saturday ahead of thanksgiving. CLeared to fly home on wednesday. 
                         </p> -->
                         <img class="image" src="./images/20221001_post-op_norwood.jpg" alt="a newborn laying on a hospital bed covered by plastic warming cover, the infant is connected to many monitors and iv lines with drainage tubes and bandages at the surgical site">
+                    </div>
+
+                    <div class="row column">
                     <h3>Interstage</h3>
                         <!-- <p>FLying home. Settling in. New routines. Formula shortage. Tylenol shortage.
                             Wound/incision care. Sternal precautions. Weekly check ins with cardiac team in Vancouver.
@@ -62,13 +74,20 @@
                         <img class="image" src="./images/20221025_first-bath-at-home.jpg" alt="an infant with a large bandage on his chest laying is getting a bath">
                         <img class="image" src="./images/20221208-off-sternal-precautions.jpg" alt="an infant wearing grey is laying on his tummy holding his head up with a curious look on his face">
                         <img class="image" src="./images/20230124-zipper.jpg" alt="an infant laying on a white blanket showing his zipper scar from heart surgery">
+                    </div>
+
+                    <div class="row column">
                     <h3>The Glenn Procedure</h3>
                         <!-- <p>Age 6 months. Beefing up ahead of time; weight gain. Travel. Hope Air, Easter Seals House. Checking in at hospital. Cath lab. Admitted Monday. Almost didn't have the surgery. 
                         Day of surgery, Wednesday. Only 5 hours this time. Step down from ICU within 24 hours. Discharged from Hospital Saturday. Cleared to go home on Wednesday.
                         </p> -->
                         <img class="image" src="./images/20230322_post-op_glenn.jpg" alt="an infant laying in a hospital bed in the pcicu hooked up to monitors and iv medications">
+                    </div>
+                    
+                    <div class="row column">
                     <h3>Waiting for the Fontan Procedure</h3>
                         <!-- <p>more info</p> -->
+                    </div>
             </section>
         </div>
 <hr>
@@ -85,8 +104,13 @@
 <hr>
         <div class="footer">
             <footer>
-                <p>Written on behalf of my son, Anthony Blu, who lives with Hypoplastic Left Heart Syndrome.</p>
-                <a href="#header">Back to top</a>
+                <p id="footer">Written on behalf of my son, Anthony Blu, who lives with Hypoplastic Left Heart Syndrome</p>
+                <div class="bottomnav">
+                    <p>
+                    <a href="#header">Back to top</a>
+                    <a href="./page2.html">Our Story</a>
+                    </p>
+                </div>
             </footer>
         </div>
     </body>
