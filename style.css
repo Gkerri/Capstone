@@ -2,7 +2,7 @@
 /* how to separate text so that it doesn't cross the entire page */
 * {
     box-sizing:border-box;
-    background-color:aliceblue;
+    background-color:rgb(215, 182, 139);
     line-height:1.5;
     /* text-align:left; */
 }
@@ -11,37 +11,27 @@
     font-weight: 400;
     font-style: normal;
 }
-.balloon {
-    height:60px;
-}
-.heart {
-    width:25px;
-    margin-top:5px;
-}
 .tony-cereal {
     max-width:300px;
     display:block;
     margin:0 auto;
 }
-/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 100%;
     padding:0px;
 }
-  /* Clear floats after the columns */
 .row::after {
 content: "";
 display: table;
 clear: both;
 }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
+
+@media screen and (max-width:600px) {
+.column {
+    width: 100%;
     }
-  }
+}
 .image {
     width:25%;
     padding-right:12px;
@@ -56,16 +46,16 @@ figcaption {
 }
 .banner {
     height:200px;
-    color:azure;
+    color:rgb(215, 182, 139);
     text-align:center;
     padding:10px 10px;
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
-    border:4px solid royalblue;
+    border:4px solid midnightblue;
 }
 .header {
-    color:rgb(85, 123, 237);
+    color:indigo;
     text-align:center;
     line-height:1;
     margin:0 auto;
@@ -79,29 +69,27 @@ figcaption {
     background-position:center;
  }
 .topnav a {
-    display:inline-flex;
-    color:azure;
+    display:inline-block;
+    color:rgb(215, 182, 139);
     text-align:center;
     padding:10px 35px;
     text-decoration:none;
-    border:3px solid azure;
+    border:3px solid rgb(215, 182, 139);
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
 }
 .topnav a:hover {
     text-decoration:underline;
-    color:yellow;
+    color:azure;
 }
 .topnav p {
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
-    /* background-image:url("./images/blue-snow.webp");
-    background-size:cover; */
 }
 .title {
-    color:azure;
+    color:rgb(215, 182, 139);
     font-family:"Poiret One", sans-serif;
     font-size:60px;
     font-weight:900;
@@ -110,36 +98,34 @@ figcaption {
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
-    /* background-image:url("./images/blue-snow.webp");
-    background-size:cover; */
 }
 .footer {
     text-align:center;
-    color:azure;
+    color:rgb(215, 182, 139);
     line-height:1;
     padding:35px;
-    border:4px solid royalblue;
+    border:4px solid midnightblue;
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
 }
 .bottomnav a {
     display:inline-block;
-    color:azure;
+    color:rgb(215, 182, 139);
     text-align:center;
     padding:10px 35px;
     text-decoration:none;
-    border:5px solid azure;
+    border:5px solid rgb(215, 182, 139);
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
 }
 .bottomnav a:hover {
     text-decoration:underline;
-    color:yellow;
+    color:azure;
 }
 .bottomnav p {
-    color:azure;
+    color:rgb(215, 182, 139);
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
@@ -159,7 +145,7 @@ figcaption {
 }
 .more-info {
     text-align:center;
-    border:4px solid royalblue;
+    border:4px solid midnightblue;
     padding:35px;
 }
 .more-info p {
@@ -171,10 +157,10 @@ figcaption {
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:17px;
-    color:darkslateblue;
+    color:indigo;
     margin:75px;
     padding:50px;
-    border:4px double royalblue
+    border:4px double midnightblue;
 }
 p {
     line-height:1.5;
@@ -203,7 +189,7 @@ ol {
     margin:10px 10px
 }
 ol li {
-    color:rgb(85, 123, 237);
+    color:midnightblue;
     margin:10px
 }
 .ol1 {
@@ -216,7 +202,7 @@ ul {
     padding:0% 6%;
 }
 h2 {
-    color:rgb(85, 123, 237);
+    color:midnightblue;
     font-family:"Poiret One", sans-serif;
     font-size: 50px;
     font-weight:800;
@@ -226,33 +212,33 @@ h2 {
     margin-bottom:10px;
 }
 h3 {
-    color:rgb(85, 123, 237);
+    color:midnightblue;
     font-family: "Poiret One", sans-serif;
     font-size:40px;
-    font-weight:700;
+    font-weight:800;
     text-align:left;
     padding-bottom:0px;
     margin-top:25px;
     margin-bottom:10px;
 }
 h4 {
-    color:rgb(85, 123, 237);
+    color:midnightblue;
     font-family:"poiret one", sans-serif;
     font-size:35px;
     text-align:left;
-    font-weight:700;
+    font-weight:800;
     font-variant:small-caps;
     padding-bottom:0px;
     margin-top:25px;
     margin-bottom:10px;
 }
 h5 {
-    color:rgb(85, 123, 237);
+    color:midnightblue;
     font-family:"poiret one", sans-serif;
     font-size:30px;
     text-align:left;
     font-style:italic;
-    font-weight:700;
+    font-weight:800;
     padding-bottom:0px;
     margin-top:25px;
     margin-bottom:10px;
