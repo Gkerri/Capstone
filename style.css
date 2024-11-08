@@ -60,6 +60,13 @@ figcaption {
     margin:0;
     padding:0;
 }
+figcaption1 {
+    font-size:15px;
+    text-align:left;
+    line-height:1;
+    margin:0;
+    padding:0;
+}
 .banner {
     height:225px;
     width:auto;
