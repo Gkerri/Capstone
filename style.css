@@ -1,10 +1,10 @@
-/* how to align pictures*/
-/* how to separate text so that it doesn't cross the entire page */
+/* this is a comment */
 * {
     box-sizing:border-box;
     background-color:rgb(215, 182, 139);
     line-height:1.5;
     /* text-align:left; */
+    /* border:1px dashed red; */
 }
 .poiret-one-regular {
     font-family: "Poiret One", sans-serif;
@@ -15,6 +15,22 @@
     max-width:300px;
     display:block;
     margin:0 auto;
+    color:navy;
+    text-align:center;
+}
+.video{
+    max-width:300px;
+    height:75px;
+    display:block;
+    margin:0 auto;
+    /* position:fixed; */
+    /* top:0; */
+    /* left:0; */
+}
+.audio{
+    width:130px;
+    height:20px;
+    color:navy;
 }
 .column {
     float: left;
@@ -45,39 +61,43 @@ figcaption {
     padding:0;
 }
 .banner {
-    height:200px;
+    height:225px;
+    width:auto;
     color:rgb(215, 182, 139);
     text-align:center;
-    padding:10px 10px;
-    background-image:url("./images/vintage-wallpaper.webp");
+    padding: 15px;
     background-size:cover;
     background-position:center;
-    border:4px solid midnightblue;
 }
 .header {
-    color:indigo;
+    /* height:225px; */
+    width:auto;
+    color:rgb(215, 182, 139);
     text-align:center;
-    line-height:1;
-    margin:0 auto;
-    padding:15px;
+    /* padding: 15px; */
+    /* background-size:cover; */
+    /* background-position:center; */
+    /* border:4px solid midnightblue; */
 }
- .topnav {
+.topnav {
     overflow:hidden;
-    padding-bottom:10px;
+    width:auto;
+    position:relative;
+    padding-top:12px;
+    padding-bottom:35px;
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
  }
 .topnav a {
     display:inline-block;
-    color:rgb(215, 182, 139);
     text-align:center;
-    padding:10px 35px;
     text-decoration:none;
-    border:3px solid rgb(215, 182, 139);
-    background-image:url("./images/vintage-wallpaper.webp");
-    background-size:cover;
-    background-position:center;
+    font-size:15px;
+    color:midnightblue;
+    text-align:center;
+    font-variant:small-caps;
+    background-color:rgb(215, 182, 139)
 }
 .topnav a:hover {
     text-decoration:underline;
@@ -87,6 +107,7 @@ figcaption {
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
+    padding-top:12px;
 }
 .title {
     color:rgb(215, 182, 139);
@@ -104,38 +125,32 @@ figcaption {
     color:rgb(215, 182, 139);
     line-height:1;
     padding:35px;
-    border:4px solid midnightblue;
     background-image:url("./images/vintage-wallpaper.webp");
     background-size:cover;
     background-position:center;
 }
 .bottomnav a {
     display:inline-block;
-    color:rgb(215, 182, 139);
+    color:midnightblue;
     text-align:center;
-    padding:10px 35px;
     text-decoration:none;
-    border:5px solid rgb(215, 182, 139);
-    background-image:url("./images/vintage-wallpaper.webp");
-    background-size:cover;
-    background-position:center;
-}
+    background-color:rgb(215, 182, 139);
+} 
 .bottomnav a:hover {
     text-decoration:underline;
     color:azure;
 }
 .bottomnav p {
-    color:rgb(215, 182, 139);
-    background-image:url("./images/vintage-wallpaper.webp");
-    background-size:cover;
-    background-position:center;
+    color:midnightblue;
+    background-color:rgb(215, 182, 139);
+    padding-top:12px;
 }
 .footer a {
     font-size:15px;
+    color:midnightblue;
     text-align:center;
-    font-variant:small-caps;background-image:url("./images/vintage-wallpaper.webp");
-    background-size:cover;
-    background-position:center;
+    font-variant:small-caps;
+    background-color:rgb(215, 182, 139)
 }
 .footer p {
     text-align:center;
@@ -145,7 +160,7 @@ figcaption {
 }
 .more-info {
     text-align:center;
-    border:4px solid midnightblue;
+    border:15px solid midnightblue;
     padding:35px;
 }
 .more-info p {
@@ -154,10 +169,22 @@ figcaption {
 .more-info a {
     text-align:center;
 }
+.topnav button{
+    border:2px ridge rgb(215, 182, 139);
+    background-color:rgb(215, 182, 139);
+    color:midnightblue;
+    border-radius:35px;
+}
+.bottomnav button{
+    border:2px ridge rgb(215, 182, 139);
+    color:midnightblue;
+    background-color:rgb(215, 182, 139);
+    border-radius:35px;
+}
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:17px;
-    color:indigo;
+    color:navy;
     margin:75px;
     padding:50px;
     border:4px double midnightblue;
